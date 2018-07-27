@@ -1,0 +1,143 @@
+.font{
+    font-family: "Century Gothic", sans-serif;
+}
+
+;
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+textarea{
+    resize: none;
+}
+
+.pad-top{
+    padding-top: 10px;
+}
+.pad-bottom{
+    padding-bottom: 10px;
+}
+.pad-left{
+    padding-left: 10px;
+}
+.pad-right{
+    padding-right: 10px;
+}
+.pad-for-grid-columns{
+    padding-left: 0;
+    padding-right: 0;
+}
+.margin-for-row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.margin-top{
+    margin-top: 20px;
+}
+.margin-bottom{
+    margin-bottom: 20px;
+}
+.no-margin-bottom{
+    margin-bottom: 0;
+}
+
+.header-image{
+    position: relative;
+    z-index: 1;
+    width: auto;
+    height: auto;
+}
+
+.fix-navbar{
+    top: 0;
+    width: 100%;
+    background-color:#e2dbed;
+    z-index: 100;
+}
+.menu{
+    border: 1px solid rgba(149, 7, 0, 0.93);
+}
+.background{
+    background-color: rgba(235, 229, 246, 0.81);
+}
+.navbar-nav>li>a{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(149, 7, 0, 0.93);
+}
+.navbar-nav>li>a:hover{
+    transition: 0.5s ease;
+    background-color:#740500 ;
+    color: white;
+}
+
+.subscribe-button{
+    background-color: #740500;
+    border: 1px solid rgba(149, 7, 0, 0.93);
+    color: white;
+}
+.subscribe-button:hover{
+    color: white;
+    border: 1px solid #740500;
+}
+.subscribe-button:focus{
+    background-color: #740500;
+    border: 1px solid #740500;
+    color: white;
+}
+
+
+.section-card{
+    box-shadow: 0 5px 5px 0 rgba(215, 215, 215, 0.81),0 -5px 5px 0 rgba(215, 215, 215, 0.81);
+}
+.category-head{
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.blog-card{
+    box-shadow: 10px 5px 10px 0 rgba(215, 215, 215, 0.81),-5px 0 10px 0 rgba(215, 215, 215, 0.81);
+}
+.gallery{
+    padding: 10px 10px 0 10px ;
+    border: none;
+    margin-bottom: 0;
+}
+.post-body{
+    background-color: rgba(235, 229, 246, 0.81);
+}
+.title{
+    font-size: 200%;
+    text-decoration: none;
+}
+.my-button{
+    background-color: #e2dbed;
+    border: 1px solid #e2dbed;
+    color: black;
+}
+.my-button:focus{
+    background-color: #e2dbed;
+    border: 1px solid #e2dbed;
+    color: black;
+}
+
+.author-underline{
+    border-bottom: 1px solid #e2dbed;
+}
+.single-post{
+    background-color: white;
+}
+.blog-body{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#nextPage{
+    display: none;
+}
+.fontSmall{
+    font-size: 12px;
+}

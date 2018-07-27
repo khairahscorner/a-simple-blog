@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EveryDay With Khairah </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="img/icon.JPG">
+    <script src="jquery-3.3.1.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+<body id="singlePost" data-title="blogPost">
+    <header class="container-fluid pad-for-grid-columns" id="head">
+        <div class="background">
+            <img src="img/header.JPG" alt="Header Imagehere" class=" header-image img-responsive center-block" >
+        </div>
+        <!--<div class="logo col-lg-1 col-md-1 col-sm-1 col-xs-1 pad-for-grid-columns">-->
+        <!--</div>-->
+        <nav class="navbar no-margin-bottom">
+            <div class="container-fluid pad-for-grid-columns background">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar menu"></span>
+                    <span class="icon-bar menu"></span>
+                    <span class="icon-bar menu"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav col-lg-10 col-md-10 col-sm-10 pad-for-grid-columns">
+                        <li><a href="index.html" class="text-uppercase ">Home</a></li>
+                        <li><a href="index.html" class="text-uppercase">About</a></li>
+                        <li><a href="index.html" class="text-uppercase">Contact</a></li>
+                    </ul>
+                    <button type="button" class="btn subscribe-button navbar-btn navbar-right">
+                        <span class="glyphicon glyphicon-download" style="padding-right: 5px"></span>
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="blogSection" class="container-fluid margin-top margin-bottom font single-post pad-for-grid-columns" >
+        <div class="pad-for-grid-columns col-lg-8 col-md-8 col-sm-8 col-xs-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 margin-bottom ">
+            <div id="singlePostHolder" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blog-card margin-bottom">
+
+            </div>
+
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pad-top pad-bottom text-center">
+                <a id="edit" class="col-lg-1 col-md-2 col-sm-2 col-xs-12 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0 margin-bottom btn my-button text-uppercase">
+                    edit
+                </a>
+                <a id="delete" data-toggle="modal" data-target="#deleteBox" class="col-lg-1 col-md-2 col-sm-2 col-xs-12 col-xs-offset-0 col-sm-offset-8 col-md-offset-8 col-lg-offset-10 text-uppercase btn my-button text-uppercase">
+                    delete
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="deleteBox" data-backdrop="static" style="padding-right: 0">
+        <div class="modal-content modal-dialog" style="margin-top: 10vw">
+            <div class="modal-header">
+                <h4 class="text-uppercase text-center">
+                    are you sure you want to delete this post?
+                </h4>
+            </div>
+            <div class="modal-body">
+                <a id="deleteBtn" class="btn btn-success text-uppercase" data-toggle="modal">
+                    <span class="glyphicon glyphicon-ok pad-right"></span>yes
+                </a>
+                <button class="btn btn-danger text-uppercase" data-dismiss="modal" style="float: right">
+                    <span class="glyphicon glyphicon-remove"></span> no, go back
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="deleteSuccess" data-backdrop="static" style="padding-right: 0">
+        <div class="modal-content modal-dialog" style="margin-top: 10vw">
+            <div class="modal-header">
+                <h4 class="text-uppercase text-center">
+                    Delete successful!!
+                </h4>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-success text-uppercase" href="index.html">
+                    go to home<span class="glyphicon glyphicon-arrow-right pad-left"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="processingRequest" data-backdrop="static" style="padding-right: 0">
+        <div class="modal-content modal-dialog" style="margin-top: 10vw">
+            <div class="modal-header">
+                <h4 class="text-uppercase text-center" id="words">
+                    Processing Request. Please Wait!!
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class=" post-body text-center font pad-top pad-bottom col-lg-11 col-md-11 col-sm-11 col-xs-10">
+            Copyright &copy; Khairah 2018
+        </div>
+        <div class="post-body text-center font pad-top pad-bottom col-lg-1 col-md-1 col-sm-1 col-xs-2">
+            <a class="glyphicon glyphicon-arrow-up" href="#head"></a>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EveryDay With Khairah </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="img/icon.JPG">
+    <script src="jquery-3.3.1.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+</head>
+<body id="editCreatePost" data-title="editPost" >
+    <header class="container-fluid pad-for-grid-columns" id="head">
+        <div class="background">
+            <img src="img/header.JPG" alt="Header Imagehere" class=" header-image img-responsive center-block" >
+        </div>
+        <!--<div class="logo col-lg-1 col-md-1 col-sm-1 col-xs-1 pad-for-grid-columns">-->
+        <!--</div>-->
+        <nav class="navbar no-margin-bottom">
+            <div class="container-fluid pad-for-grid-columns background">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar menu"></span>
+                    <span class="icon-bar menu"></span>
+                    <span class="icon-bar menu"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav col-lg-10 col-md-10 col-sm-10 pad-for-grid-columns">
+                        <li><a href="index.html" class="text-uppercase ">Home</a></li>
+                        <li><a href="index.html" class="text-uppercase">About</a></li>
+                        <li><a href="index.html" class="text-uppercase">Contact</a></li>
+                    </ul>
+                    <button type="button" class="btn subscribe-button navbar-btn navbar-right">
+                        <span class="glyphicon glyphicon-download pad-right"></span>
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid margin-top margin-bottom font single-post pad-for-grid-columns" >
+        <div class="pad-for-grid-columns col-lg-8 col-md-8 col-sm-8 col-xs-8 col-lg-offset-2 col-md-offset-2
+         col-sm-offset-2 col-xs-offset-2 margin-bottom ">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blog-card margin-bottom">
+                    <div class="form-group-lg">
+                        <label class="sr-only" for="headOfPost">Your Title Goes Here:</label>
+                        <input class="form-control margin-bottom margin-top text-uppercase pad-for-grid-columns"
+                               id="headOfPost" placeholder="Title">
+                    </div>
+                    <div class="form-group-lg">
+                        <label class="sr-only" for="bodyOfPost">Your Post Goes Here:</label>
+                        <textarea class="form-control margin-top margin-bottom" id="bodyOfPost" placeholder="Type Your Post Here...."
+                        rows="10"></textarea>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pad-top pad-bottom text-center">
+                        <button class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-xs-offset-0 col-sm-offset-4 col-md-offset-4 col-lg-offset-4 text-uppercase btn my-button text-uppercase" type="button" id="save">
+                            save and publish
+                        </button>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="postSuccess" data-backdrop="static" style="padding-right: 0">
+        <div class="modal-content modal-dialog" style="margin-top: 10vw">
+            <div class="modal-header">
+                <h4 id="wordsForSuccess" class="text-uppercase text-center">
+                    changes saved!! Post published!!
+                </h4>
+            </div>
+            <div class="modal-footer">
+                <a id="close" class="btn btn-default text-uppercase" href="index.html">
+                    <span class="glyphicon glyphicon-ok pad-right"></span> Close
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="processingRequest" data-backdrop="static" style="padding-right: 0">
+        <div class="modal-content modal-dialog" style="margin-top: 10vw">
+            <div class="modal-header">
+                <h4 class="text-uppercase text-center" id="words">
+                    Processing Request. Please Wait!!
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class=" post-body text-center font pad-top pad-bottom col-lg-11 col-md-11 col-sm-11 col-xs-10">
+            Copyright &copy; Khairah 2018
+        </div>
+        <div class="post-body text-center font pad-top pad-bottom col-lg-1 col-md-1 col-sm-1 col-xs-2">
+            <a class="glyphicon glyphicon-arrow-up" href="#head"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

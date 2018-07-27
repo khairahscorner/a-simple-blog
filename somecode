@@ -1,0 +1,103 @@
+<p class="text-center pad-top no-margin-bottom">
+                        <a class="text-uppercase btn btn-default margin-top pad-for-grid-columns" href="all-posts.html">
+                        all posts
+                        <span class="pad-left glyphicon glyphicon-arrow-right"></span>
+                        </a>
+                    </p>
+
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blog-card margin-bottom"> <!--creates a div for each post-->
+                <!--first div is for post title -->
+                <div class="text-center text-uppercase margin-top margin-bottom post-body title pad-right pad-left pad-top pad-bottom">
+                    Excerpt: My First Blog Post
+                </div>
+                <div class="container-fluid margin-bottom pad-for-grid-columns" >
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gallery thumbnail ">
+                        <img src="img/image1.JPG" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gallery thumbnail">
+                        <img src="img/image2.JPG" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gallery thumbnail">
+                        <img src="img/image3.JPG" class="img-responsive img-thumbnail">
+                    </div>
+                </div>      <!--images-->
+                <div class="text-left post-body pad-right pad-left pad-top pad-bottom">
+                    <p class="pad-top">   <!--post body-->
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                        Ut enim ad minim veniam, quis nostrud exercitat ullamco laboris nisi ut aliquip
+                        exea com consequat realzonal.
+                    </p>
+                    <p class="text-center pad-top no-margin-bottom">
+                        <a class="text-uppercase btn my-button text-center pad-top no-margin-bottom" href="blog-post.html">
+                            Read more
+                            <span class="pad-left glyphicon glyphicon-arrow-right"></span>
+                        </a>
+                    </p>    <!--read  more-->
+                </div>      <!-- body-->
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blog-card margin-bottom">
+                <div class="text-center text-uppercase margin-top margin-bottom post-body title pad-right pad-left pad-top pad-bottom">
+                    Excerpt: My First Blog Post
+                </div>
+                <div class="container-fluid margin-bottom pad-for-grid-columns" >
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gallery thumbnail ">
+                        <img src="img/image1.JPG" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gallery thumbnail">
+                        <img src="img/image2.JPG" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gallery thumbnail">
+                        <img src="img/image3.JPG" class="img-responsive img-thumbnail">
+                    </div>
+                </div>
+                <div class="text-left post-body pad-right pad-left pad-top pad-bottom">
+                    <p class="pad-top">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                        Ut enim ad minim veniam, quis nostrud exercitat ullamco laboris nisi ut aliquip
+                        exea com consequat realzonal.
+                    </p>
+                    <p class="text-center pad-top no-margin-bottom">
+                        <a class="text-uppercase btn my-button" href="blog-post.html">
+                        Read more
+                        <span class="pad-left glyphicon glyphicon-arrow-right"></span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blog-card margin-bottom">
+                <div class="text-center text-uppercase margin-top margin-bottom post-body title pad-right pad-left pad-top pad-bottom">
+                    Excerpt: My First Blog Post
+                </div>
+                <div class="container-fluid margin-bottom pad-for-grid-columns" >
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gallery thumbnail ">
+                        <img src="img/image1.JPG" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gallery thumbnail">
+                        <img src="img/image2.JPG" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 gallery thumbnail">
+                        <img src="img/image3.JPG" class="img-responsive img-thumbnail">
+                    </div>
+                </div>
+                <div class="text-left post-body pad-right pad-left pad-top pad-bottom">
+                    <p class="pad-top">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.Ut enim ad minim veniam, quis nostrud exercitat ullamco laboris nisi ut aliquip exea com consequat realzonal.
+                    </p>
+                    <p class="text-center pad-top no-margin-bottom">
+                        <a class="text-uppercase btn my-button" href="blog-post.html">
+                            Read more
+                            <span class="pad-left glyphicon glyphicon-arrow-right"></span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <!--Show all posts, next three(make use of ajax to update the three divs with new contents)-->
+            <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pad-top pad-bottom text-center">
+                <button type="button" class="btn my-button text-uppercase">
+                    <a href="index.html">
+                    older posts <span class="pad-left glyphicon glyphicon-arrow-right"></span>
+                    </a>
+                </button>
+            </p>
+
+
