@@ -18,6 +18,7 @@ $(document).ready(function(){
     }
 
     if($('#indexBody').data('title') === 'index') {
+       
         $.ajax({
             url: "https://kw-blog.herokuapp.com/posts",
             type: "get",

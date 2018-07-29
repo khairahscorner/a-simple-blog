@@ -19,7 +19,7 @@
         <!--</div>-->
         <nav class="navbar no-margin-bottom fix-navbar" data-spy="affix" data-offset-top="300">
             <div class="container-fluid pad-for-grid-columns background">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <button type="button" class="menu-left navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar menu"></span>
                     <span class="icon-bar menu"></span>
                     <span class="icon-bar menu"></span>
@@ -50,9 +50,11 @@
                         </button>
                     </div>
                 </div>
-                <div class="margin-top margin-bottom">
-                    <h2 class="text-uppercase category-head text-center pad-top"> categories</h2>
-                    <ul class="list-unstyled text-center no-margin-bottom">
+                <div class="margin-bottom" style="margin-top: 5px">
+                    <h2 class="text-uppercase category-head text-center pad-top pad-bottom">
+                        categories
+                    </h2>
+                    <ul class="list-unstyled text-center no-margin-bottom" id="category">
                         <li> Faith</li>
                         <li> Lifestyle</li>
                         <li> Fashion</li>
@@ -79,7 +81,9 @@
         </div>
         <div id="authorSection" class="col-lg-2 col-md-2 col-sm-2 col-xs-12 section-card" >
             <div>
-                <img src="img/author.png" class="img-responsive margin-top">
+                <div class="profile-mobile">
+                    <img src="img/author.png" class="img-responsive margin-top" alt="author-picture">
+                </div>
                 <div>
                     <p class="text-uppercase text-center pad-top"><strong>Welcome to my blog!</strong></p>
                     <p class=" pad-left pad-right pad-top pad-bottom no-margin-bottom">

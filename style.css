@@ -1,8 +1,17 @@
+@media screen and (max-width: 767px){
+    .profile-mobile{
+        width: 50%;
+        margin: 0 auto;
+    }
+    #writeNew{
+        margin-top: 5px;
+    }
+
+}
+
 .font{
     font-family: "Century Gothic", sans-serif;
 }
-
-;
 a{
     color: black;
 }
@@ -13,7 +22,9 @@ a:hover{
 textarea{
     resize: none;
 }
-
+h2{
+    margin: 0;
+}
 .pad-top{
     padding-top: 10px;
 }
@@ -73,7 +84,13 @@ textarea{
     background-color:#740500 ;
     color: white;
 }
-
+.navbar-collapse.in{
+    border-top: 1px solid lightgray;
+}
+.menu-left{
+    width: 100%;
+    float: left;
+}
 .subscribe-button{
     background-color: #740500;
     border: 1px solid rgba(149, 7, 0, 0.93);
